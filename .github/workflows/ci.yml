@@ -4,10 +4,10 @@ on:
   push:
     branches:
       - master
+      - test/pages-deployment
   pull_request:
     branches:
       - master
-      - test/pages-deployment
 
 permissions:
   contents: read
