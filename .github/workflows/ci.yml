@@ -140,7 +140,7 @@ jobs:
 
   build-site:
     name: Build site for GitHub Pages
-    if: github.repository == 'Pratham21223/netjsongraph.js' && github.event_name == 'push' && github.ref == 'refs/heads/test/pages-deployment'
+    if: github.repository == 'Pratham21223/netjsongraph-pages-test' && github.event_name == 'push' && github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     permissions:
       contents: read
